@@ -28,6 +28,44 @@
 </style><!-- Start of headEnd -->
     
     <!-- End of headEnd -->
+
+    <!-- CSS pour masquer les badges Framer et boutons sociaux -->
+    <style>
+        /* Masquer tous les badges Framer */
+        [data-framer-badge],
+        .framer-badge,
+        #__framer-badge-container,
+        .__framer-badge,
+        [class*="framer-badge"],
+        [id*="framer-badge"] {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+
+        /* Masquer les boutons de réseaux sociaux */
+        [data-social],
+        [class*="social"],
+        [class*="share"],
+        [href*="twitter.com"],
+        [href*="facebook.com"],
+        [href*="instagram.com"],
+        [href*="linkedin.com"],
+        [href*="youtube.com"],
+        [href*="github.com"] {
+            display: none !important;
+        }
+
+        /* Masquer les icônes sociales communes */
+        .social-icon,
+        .social-button,
+        .share-button,
+        [class*="social-icon"],
+        [class*="share-button"] {
+            display: none !important;
+        }
+    </style>
 </head>
 <body>
     <!-- Start of bodyStart -->
